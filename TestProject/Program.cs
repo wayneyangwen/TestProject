@@ -14,11 +14,6 @@ namespace TestProject
     {
         public static void Main(string[] args)
         {
-
-            Console.WriteLine("Test!!");
-            Console.WriteLine("feature!");
-            Console.WriteLine("TestFix!!");
-            //2Test
             BuildWebHost(args).Run();
         }
 
