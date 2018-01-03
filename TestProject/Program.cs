@@ -14,6 +14,8 @@ namespace TestProject
     {
         public static void Main(string[] args)
         {
+
+            Console.WriteLine("Test!!");
             BuildWebHost(args).Run();
         }
 
