@@ -14,10 +14,12 @@ namespace TestProject
     {
         public static void Main(string[] args)
         {
-            //Test 2
-            //Test
-            //test4
             BuildWebHost(args).Run();
+        }
+
+        public void Employee()
+        {
+
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
